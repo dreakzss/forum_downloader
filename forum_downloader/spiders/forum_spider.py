@@ -13,7 +13,7 @@ import os
 class Spider(object):
 
     def __init__(self):
-        self.url = "http://www.miui.com/thread-11018798-1-1.html"
+        self.url = "http://www.miui.com/thread-5048157-1-1.html"
 
 
 class MySpider(scrapy.Spider):
@@ -37,16 +37,22 @@ class MySpider(scrapy.Spider):
 
         first_url = self.get_first_url()
 
+        # 获取最大页数, 有last标签直接抓取
         page = urllib.request.urlopen(first_url)
         html = page.read().decode('utf-8')
         soup = BeautifulSoup(html, "html.parser")
         last_page = soup.select('.last')
-        self.max_num = str(last_page[0].getText())[4:]
+        if last_page:
+            self.max_num = int(last_page[0].getText())[4:]
+        else:
+            pg_div = soup.find('div', {'class': 'pg'})
+            self.max_num = int(pg_div.contents[-2].getText())
 
+        # 拆分url
         base_url = str(first_url)[:-8]
         bash_url = str(first_url)[-7:]
 
-        for num in range(1, 7):  # int(max_num) + 1
+        for num in range(1, self.max_num + 1):  # int(max_num) + 1
 
             url = base_url + str(num) + bash_url
             yield scrapy.Request(url=url, callback=self.parse, meta={'current_page': num})
@@ -98,7 +104,7 @@ class MySpider(scrapy.Spider):
         print('--- Progress --- : ' + str(self.grabbed_pages) + '/' + str(self.max_num))
 
         # 判断进度，如果为100%，则写入文件
-        if self.grabbed_pages == 6:
+        if self.grabbed_pages == self.max_num:
             self.write_2_excel(filename)
 
     # 如果grabbed_pages累加之和等于最大页数，写入excel
@@ -115,6 +121,7 @@ class MySpider(scrapy.Spider):
 
         # 结束计时，并计算总用时
         self.sh.write(1, 9, str(time.time() - self.start_time)[:4] + '秒')
+        self.sh.write(1, 10, str(self.grabbed_pages) + '/' + str(self.max_num))
 
         # 保存文件
         save_path = '/Users/haoranwang/Desktop/miui_forum'
@@ -133,6 +140,7 @@ class MySpider(scrapy.Spider):
         self.sh.write(0, 7, '评论')
         self.sh.write(0, 8, '引用')
         self.sh.write(0, 9, '用时')
+        self.sh.write(0, 10, '进度')
 
     @staticmethod
     def get_first_url():

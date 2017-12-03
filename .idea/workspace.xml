@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e70204-4369-4424-83e4-cbce9257886e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/forum_downloader/spiders/backup1.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py" afterPath="$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py" />
     </list>
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/forum_downloader$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1512294682951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/forum_downloader$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1512296552052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -41,19 +40,20 @@
       <file leaf-file-name="forum_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+            <state relative-caret-position="393">
+              <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#2848#3476#0" expanded="false" />
-                <element signature="e#3512#3849#0" expanded="false" />
-                <element signature="e#3977#4116#0" expanded="false" />
-                <element signature="e#4182#4801#0" expanded="false" />
-                <element signature="e#4860#5030#0" expanded="false" />
-                <element signature="e#5086#5161#0" expanded="false" />
-                <element signature="e#5221#5386#0" expanded="false" />
-                <element signature="e#5445#5609#0" expanded="false" />
-                <element signature="e#5664#5806#0" expanded="false" />
+                <element signature="e#3820#4192#0" expanded="false" />
+                <element signature="e#4245#4264#0" expanded="false" />
+                <element signature="e#4320#4459#0" expanded="false" />
+                <element signature="e#4525#5144#0" expanded="false" />
+                <element signature="e#5203#5373#0" expanded="false" />
+                <element signature="e#5429#5504#0" expanded="false" />
+                <element signature="e#5564#5729#0" expanded="false" />
+                <element signature="e#5788#5952#0" expanded="false" />
+                <element signature="e#6007#6149#0" expanded="false" />
+                <element signature="e#6243#6919#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -92,6 +92,7 @@
       <find>grab_pages</find>
       <find>grab</find>
       <find>total</find>
+      <find>html</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512285957213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[1.9] （测试版）爬取1-6页&#10;+进度条&#10;+识别quote，并存放于两列中&#10;+保存于指定路径folder&#10;+识别filename&#10;+抓取评论时间&#10;+抓取评论&#10;+抓取楼层&#10;+抓取title&#10;+抓取miui，机型">
+      <created>1512294832498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512294832498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -242,7 +250,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.343" sideWeight="0.50238097" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.432" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -270,7 +278,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[1.0] only grab comment" />
     <MESSAGE value="[1.1] modules finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="[1.1] modules finished" />
+    <MESSAGE value="[1.9] （测试版）爬取1-6页&#10;+进度条&#10;+识别quote，并存放于两列中&#10;+保存于指定路径folder&#10;+识别filename&#10;+抓取评论时间&#10;+抓取评论&#10;+抓取楼层&#10;+抓取title&#10;+抓取miui，机型" />
+    <option name="LAST_COMMIT_MESSAGE" value="[1.9] （测试版）爬取1-6页&#10;+进度条&#10;+识别quote，并存放于两列中&#10;+保存于指定路径folder&#10;+识别filename&#10;+抓取评论时间&#10;+抓取评论&#10;+抓取楼层&#10;+抓取title&#10;+抓取miui，机型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -327,19 +336,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+        <state relative-caret-position="393">
+          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#2848#3476#0" expanded="false" />
-            <element signature="e#3512#3849#0" expanded="false" />
-            <element signature="e#3977#4116#0" expanded="false" />
-            <element signature="e#4182#4801#0" expanded="false" />
-            <element signature="e#4860#5030#0" expanded="false" />
-            <element signature="e#5086#5161#0" expanded="false" />
-            <element signature="e#5221#5386#0" expanded="false" />
-            <element signature="e#5445#5609#0" expanded="false" />
-            <element signature="e#5664#5806#0" expanded="false" />
+            <element signature="e#3820#4192#0" expanded="false" />
+            <element signature="e#4245#4264#0" expanded="false" />
+            <element signature="e#4320#4459#0" expanded="false" />
+            <element signature="e#4525#5144#0" expanded="false" />
+            <element signature="e#5203#5373#0" expanded="false" />
+            <element signature="e#5429#5504#0" expanded="false" />
+            <element signature="e#5564#5729#0" expanded="false" />
+            <element signature="e#5788#5952#0" expanded="false" />
+            <element signature="e#6007#6149#0" expanded="false" />
+            <element signature="e#6243#6919#0" expanded="false" />
           </folding>
         </state>
       </provider>
