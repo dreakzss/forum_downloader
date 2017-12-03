@@ -103,11 +103,10 @@ class MySpider(scrapy.Spider):
         # 显示进度条
         print('--- Progress --- : ' + str(self.grabbed_pages) + '/' + str(self.max_num))
 
-        # 判断进度，如果为100%，则写入文件
+        # 判断进度，如果grabbed_pages累加之和等于最大页数，写入excel
         if self.grabbed_pages == self.max_num:
             self.write_2_excel(filename)
 
-    # 如果grabbed_pages累加之和等于最大页数，写入excel
     def write_2_excel(self, filename):
 
         # 初始列名

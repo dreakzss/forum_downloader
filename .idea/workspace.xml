@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="77e70204-4369-4424-83e4-cbce9257886e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py" afterPath="$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,20 +40,21 @@
       <file leaf-file-name="forum_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="178">
+              <caret line="105" column="15" lean-forward="false" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#3820#4192#0" expanded="false" />
-                <element signature="e#4245#4264#0" expanded="false" />
-                <element signature="e#4320#4459#0" expanded="false" />
-                <element signature="e#4525#5144#0" expanded="false" />
-                <element signature="e#5203#5373#0" expanded="false" />
-                <element signature="e#5429#5504#0" expanded="false" />
-                <element signature="e#5564#5729#0" expanded="false" />
-                <element signature="e#5788#5952#0" expanded="false" />
-                <element signature="e#6007#6149#0" expanded="false" />
-                <element signature="e#6243#6919#0" expanded="false" />
+                <element signature="e#3056#3764#0" expanded="false" />
+                <element signature="e#3800#4172#0" expanded="false" />
+                <element signature="e#4225#4244#0" expanded="false" />
+                <element signature="e#4300#4439#0" expanded="false" />
+                <element signature="e#4505#5124#0" expanded="false" />
+                <element signature="e#5183#5353#0" expanded="false" />
+                <element signature="e#5409#5484#0" expanded="false" />
+                <element signature="e#5544#5709#0" expanded="false" />
+                <element signature="e#5768#5932#0" expanded="false" />
+                <element signature="e#5987#6129#0" expanded="false" />
+                <element signature="e#6223#6899#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -247,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512296635713</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[2.0]&#10;+获取最后一页（无last标签时）&#10;+下载所有页面内容&#10;+bugs fixed">
+      <created>1512296656644</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512296656644</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -343,20 +352,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        <state relative-caret-position="178">
+          <caret line="105" column="15" lean-forward="false" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#3820#4192#0" expanded="false" />
-            <element signature="e#4245#4264#0" expanded="false" />
-            <element signature="e#4320#4459#0" expanded="false" />
-            <element signature="e#4525#5144#0" expanded="false" />
-            <element signature="e#5203#5373#0" expanded="false" />
-            <element signature="e#5429#5504#0" expanded="false" />
-            <element signature="e#5564#5729#0" expanded="false" />
-            <element signature="e#5788#5952#0" expanded="false" />
-            <element signature="e#6007#6149#0" expanded="false" />
-            <element signature="e#6243#6919#0" expanded="false" />
+            <element signature="e#3056#3764#0" expanded="false" />
+            <element signature="e#3800#4172#0" expanded="false" />
+            <element signature="e#4225#4244#0" expanded="false" />
+            <element signature="e#4300#4439#0" expanded="false" />
+            <element signature="e#4505#5124#0" expanded="false" />
+            <element signature="e#5183#5353#0" expanded="false" />
+            <element signature="e#5409#5484#0" expanded="false" />
+            <element signature="e#5544#5709#0" expanded="false" />
+            <element signature="e#5768#5932#0" expanded="false" />
+            <element signature="e#5987#6129#0" expanded="false" />
+            <element signature="e#6223#6899#0" expanded="false" />
           </folding>
         </state>
       </provider>
