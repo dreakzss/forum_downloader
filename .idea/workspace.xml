@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77e70204-4369-4424-83e4-cbce9257886e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py" afterPath="$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -241,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512294832498</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[2.0]&#10;+获取最后一页（无last标签时）&#10;+下载所有页面内容&#10;+bugs fixed">
+      <created>1512296635713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512296635713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -279,7 +285,8 @@
     <MESSAGE value="[1.0] only grab comment" />
     <MESSAGE value="[1.1] modules finished" />
     <MESSAGE value="[1.9] （测试版）爬取1-6页&#10;+进度条&#10;+识别quote，并存放于两列中&#10;+保存于指定路径folder&#10;+识别filename&#10;+抓取评论时间&#10;+抓取评论&#10;+抓取楼层&#10;+抓取title&#10;+抓取miui，机型" />
-    <option name="LAST_COMMIT_MESSAGE" value="[1.9] （测试版）爬取1-6页&#10;+进度条&#10;+识别quote，并存放于两列中&#10;+保存于指定路径folder&#10;+识别filename&#10;+抓取评论时间&#10;+抓取评论&#10;+抓取楼层&#10;+抓取title&#10;+抓取miui，机型" />
+    <MESSAGE value="[2.0]&#10;+获取最后一页（无last标签时）&#10;+下载所有页面内容&#10;+bugs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2.0]&#10;+获取最后一页（无last标签时）&#10;+下载所有页面内容&#10;+bugs fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
