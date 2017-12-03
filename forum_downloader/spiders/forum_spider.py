@@ -13,7 +13,7 @@ import os
 class Spider(object):
 
     def __init__(self):
-        self.url = "http://www.miui.com/thread-5048157-1-1.html"
+        self.url = "http://www.miui.com/thread-11283892-1-1.html"
 
 
 class MySpider(scrapy.Spider):
@@ -43,7 +43,7 @@ class MySpider(scrapy.Spider):
         soup = BeautifulSoup(html, "html.parser")
         last_page = soup.select('.last')
         if last_page:
-            self.max_num = int(last_page[0].getText())[4:]
+            self.max_num = int(last_page[0].getText()[4:])
         else:
             pg_div = soup.find('div', {'class': 'pg'})
             self.max_num = int(pg_div.contents[-2].getText())
@@ -53,7 +53,6 @@ class MySpider(scrapy.Spider):
         bash_url = str(first_url)[-7:]
 
         for num in range(1, self.max_num + 1):  # int(max_num) + 1
-
             url = base_url + str(num) + bash_url
             yield scrapy.Request(url=url, callback=self.parse, meta={'current_page': num})
 

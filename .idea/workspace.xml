@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/forum_downloader$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1512296552052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/forum_downloader$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1512297050288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -40,8 +40,8 @@
       <file leaf-file-name="forum_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="105" column="15" lean-forward="false" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
+            <state relative-caret-position="164">
+              <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#3056#3764#0" expanded="false" />
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512296656644</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[2.1]">
+      <created>1512296865688</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512296865688</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -265,7 +272,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.343" sideWeight="0.50238097" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.432" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.532" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -295,7 +302,8 @@
     <MESSAGE value="[1.1] modules finished" />
     <MESSAGE value="[1.9] （测试版）爬取1-6页&#10;+进度条&#10;+识别quote，并存放于两列中&#10;+保存于指定路径folder&#10;+识别filename&#10;+抓取评论时间&#10;+抓取评论&#10;+抓取楼层&#10;+抓取title&#10;+抓取miui，机型" />
     <MESSAGE value="[2.0]&#10;+获取最后一页（无last标签时）&#10;+下载所有页面内容&#10;+bugs fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2.0]&#10;+获取最后一页（无last标签时）&#10;+下载所有页面内容&#10;+bugs fixed" />
+    <MESSAGE value="[2.1]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2.1]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -352,8 +360,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forum_downloader/spiders/forum_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="105" column="15" lean-forward="false" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
+        <state relative-caret-position="164">
+          <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#3056#3764#0" expanded="false" />
